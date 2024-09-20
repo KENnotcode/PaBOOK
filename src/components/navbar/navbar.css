@@ -1,11 +1,12 @@
-.navbar{
+
+.navbar {
   height: 50px;
   background-color: #003580;
   display: flex;
   justify-content: center;
 }
 
-.navContainer{
+.navContainer {
   width: 100%;
   max-width: 1024px;
   color: white;
@@ -14,14 +15,29 @@
   justify-content: space-between;
 }
 
-.logo{
+.logo {
   font-weight: 500;
 }
 
-.navButton{
+.navButton {
   margin-left: 20px;
   border: none;
   padding: 5px 10px;
   cursor: pointer;
-  color: #003580;
+  color: #003580; 
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo-text {
+  font-size: 18px;
+  vertical-align: middle; 
+  display: inline-block;
+  text-align: center;
+  margin-left: 5px;
 }

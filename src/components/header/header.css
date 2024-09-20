@@ -1,9 +1,10 @@
 .header {
-  background-color: #003580;
   color: white;
   display: flex;
   justify-content: center;
   position: relative;
+  background-image: url("/public/FrontBG.jpg");
+  background-size: cover;
 }
 
 .headerContainer {
